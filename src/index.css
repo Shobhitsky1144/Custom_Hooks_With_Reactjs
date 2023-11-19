@@ -16,3 +16,8 @@ h2{
 p{
     margin: 20px 0px;
 }
+h6{
+    color: blue;
+    font-size: 40px;
+    margin: auto;
+}

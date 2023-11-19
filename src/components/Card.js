@@ -7,7 +7,7 @@ const {data,error,loading}=useFetch("https://jsonplaceholder.typicode.com/posts"
     <>
     <div className='cards'>
    {error && <h3 style={{color:'red'}}>Getting Error .Relaod again</h3>}
-   {loading  && <h3 style={{color:'violet'}}>Loading...</h3>}
+   {loading  && <h6>Loading...</h6>}
       {data?.map((card)=>{
         return(
           <div className='card'>
